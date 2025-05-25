@@ -1,0 +1,11 @@
+@use '@styles/variables.module.scss' as vars;
+.box {
+    background-color: white;
+    padding: 10px;
+    border-radius: 4px;
+    margin-top: 150px;
+}
+.title {
+    font-size: 18px;
+    color: vars.$secondary_color;
+}

@@ -3,7 +3,7 @@
 
 .container {
     background-color: vars.$primary_color;
-    margin-top: -50px;
+    margin-top: -80px;
     padding: 20px 50px;
     @include mixins.flex_box_custom(space-between, center, 0px);
 }

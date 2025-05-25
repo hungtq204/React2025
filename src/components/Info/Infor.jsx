@@ -6,13 +6,13 @@ import styles from './styles.module.scss';
 const Infor = () => {
     const { container } = styles;
     return (
-        <MainLayout>
+        <>
             <div className={container}>
                 {dataInfo.map((item, index) => {
-                    return <InfoCart content={item.title} description={item.description} src={item.src} />;
+                    return <InfoCart key={index} content={item.title} description={item.description} src={item.src} />;
                 })}
             </div>
-        </MainLayout>
+        </>
     );
 };
 
