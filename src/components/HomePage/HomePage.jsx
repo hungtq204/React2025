@@ -17,6 +17,7 @@ const HomePage = () => {
                     <Infor />
                     <AdvenceHeadling />
                     <HeadingListProduct />
+                    <div style={{ height: '200px' }}></div>
                 </MainLayout>
             </div>
         </>

@@ -2,6 +2,7 @@ import React from 'react';
 import CountdownTimer from '@components/CountdownTimer/CountdownTimer';
 import styles from './styles.module.scss';
 import CountdownBanner from '@components/CountdownBanner/CountdownBanner';
+import ProductItem from '@components/ProductItem/ProductItem';
 const HeadingListProduct = () => {
     const { container, containerItem } = styles;
 
@@ -10,7 +11,8 @@ const HeadingListProduct = () => {
         <div className={container}>
             <CountdownBanner />
             <div className={containerItem}>
-                <div>1</div>
+                <ProductItem />
+                <ProductItem />
                 <div>2</div>
             </div>
         </div>
